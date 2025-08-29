@@ -16,20 +16,20 @@ Visualização com TensorBoard direto no Colab.
 Python 3.12.11
 
 # Correções do código original:
-- y_pred=model.predict_classes(test_images) # forma não utilizada obsoleto ".predict_classes()"
-- y_pred=model.predict(test_images) #nova forma "predict()"
+y_pred=model.predict_classes(test_images) # forma não utilizada obsoleto ".predict_classes()"
+y_pred=model.predict(test_images) #nova forma "predict()"
 # Métricas Calculadas
 
-Por classe (0–9):
+-Por classe (0–9):
 
-VP, VN, FP, FN
+-VP, VN, FP, FN
 
-Sensibilidade (Recall)
+-Sensibilidade (Recall)
 
-Especificidade
+-Especificidade
 
-Acurácia
+-Acurácia
 
-Precisão (Precision)
+-Precisão (Precision)
 
-F-score
+-  F-score
