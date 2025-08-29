@@ -2,7 +2,25 @@
 
 # Projeto de classificação de dígitos manuscritos (MNIST) usando CNNs em TensorFlow/Keras via Google Colab.
 
-Inclui:
+# Como Usar no Colab
+
+- Abra o notebook no Colab:
+
+- Execute os blocos na ordem:
+
+- Importação de bibliotecas
+
+- Preparação dos dados MNIST
+
+- Definição e compilação da CNN
+
+- Treinamento (model.fit)
+
+- Predição e matriz de confusão
+
+- Cálculo das métricas por classe
+
+# Inclui:
 
 # Treinamento de CNN para classificar dígitos (0–9).
 
